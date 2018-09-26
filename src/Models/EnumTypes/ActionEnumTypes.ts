@@ -1,0 +1,24 @@
+export namespace ActionTypes {
+    export enum Marker {
+        ADD_MARKER = 'ADD_MARKER',
+        REMOVE_MARKER = 'REMOVE_MARKER',
+        INITIALIZE_MARKERS = 'INITIALIZE_MARKERS',
+        SET_DETAILS_FOR_VEHILE_VIEW = 'SET_DETAILS_FOR_VEHILE_VIEW'
+    }
+
+    export enum User {
+        LOG_IN = 'LOG_IN',
+        LOG_OUT = 'LOG_OUT'
+    }
+
+    export enum ViewManagement {
+        TOGGLE_SIDEBAR_MENU = 'TOGGLE_SIDEBAR_MENU',
+        SHOW_LOADER = 'SHOW_LOADER',
+        HIDE_LOADER = 'HIDE_LOADER',
+        SHOW_DETAILS_PANEL = 'SHOW_DETAILS_PANEL',
+        HIDE_DETAILS_PANEL = 'HIDE_DETAILS_PANEL',
+        TOGGLE_DETAILS_PANEL = 'TOGGLE_DETAILS_PANEL',
+        TOGGLE_BOTTOM_TABLE = 'TOGGLE_BOTTOM_TABLE',
+        SET_ACTIVE_PAGE = 'SET_ACTIVE_PAGE'
+    }
+}

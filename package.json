@@ -1,0 +1,38 @@
+{
+    "name": "styleguide-test",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+        "@types/history": "^4.7.0",
+        "@types/react-redux": "^6.0.9",
+        "@types/react-router": "^4.0.31",
+        "@types/react-router-dom": "^4.3.1",
+        "@types/react-router-redux": "^5.0.16",
+        "history": "^4.7.2",
+        "react": "^16.5.2",
+        "react-dom": "^16.5.2",
+        "react-redux": "^5.0.7",
+        "react-router-dom": "^4.3.1",
+        "react-router-redux": "^5.0.0-alpha.9",
+        "react-scripts": "^1.1.5",
+        "react-scripts-ts": "2.17.0",
+        "redux": "^4.0.0"
+    },
+    "scripts": {
+        "start": "react-scripts-ts start",
+        "build": "react-scripts-ts build",
+        "test": "react-scripts-ts test --env=jsdom",
+        "eject": "react-scripts-ts eject",
+        "styleguide": "styleguidist server",
+        "styleguide:build": "styleguidist build"
+    },
+    "devDependencies": {
+        "@types/jest": "^23.3.2",
+        "@types/node": "^10.11.0",
+        "@types/react": "^16.4.14",
+        "@types/react-dom": "^16.0.7",
+        "react-docgen-typescript": "^1.9.0",
+        "react-styleguidist": "^7.3.8",
+        "typescript": "^3.0.3"
+    }
+}
